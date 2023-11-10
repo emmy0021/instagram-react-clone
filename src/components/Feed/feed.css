@@ -1,0 +1,144 @@
+.feed{
+    width: 45vw;
+    height: 100vh;
+    margin: 3rem 5vw 3rem 5vw;
+    margin: 3rem 5vw 3rem 21vw;
+}
+
+
+.stories{
+    display: flex;
+    overflow: scroll;
+}
+
+.stories::-webkit-scrollbar {
+    display: none;
+  }
+.story{
+    margin: 0 0.4rem;
+    width: 4rem;
+    min-width: 4rem;
+    overflow: hidden;
+}
+
+.userImg{
+    object-fit: cover;
+    height: 4rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.post{
+    width: 28rem;
+    border-bottom: gray;
+    border-width: 10px;
+}
+
+.postImg{
+    object-fit: cover;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+}
+
+.postHead{
+    flex-direction: row;
+    display: flex;
+    margin: 0.5rem;
+    align-items: center;
+}
+.postUserImage{
+    object-fit: cover;
+    height: 2rem;
+    border-radius: 2rem;
+    padding-right: 0.5rem;
+}
+
+.postTimestamp{
+    padding-left: 1rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.postTimestamp::before{
+    content: " ";
+    width: 3px;
+    height: 3px;
+    background: gray;
+    position: relative;
+    display: inline-block;
+    bottom: 3px;
+    left: -8px;
+    border-radius: 3px;
+}
+
+.postOptions{
+    position: relative;
+    right: -53%;
+    object-fit: cover;
+    height: 20px;
+    margin: 6px;
+}
+.postActions{
+    display: inline-flex;
+    padding-top: 2px;
+}
+
+
+.postAction, .lastPostAction{
+    object-fit: cover;
+    height: 2rem;
+    padding: 0.3rem 0.3rem 0.3rem 0rem;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.lastPostAction{
+    right: -18rem;
+    position: relative;
+}
+
+.postFooter{
+    margin: 0 0.5rem;
+}
+
+.postLikes{
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+}
+
+.postComments{
+    color: gray;
+    cursor: pointer;
+}
+
+.postInputComment {
+    width: 94%;
+    background: none;
+    border: none;
+    resize: vertical;
+    outline: none;
+    resize: none; 
+    min-height: 28px;
+    height: auto;
+  }
+
+.postInputComment:focus {
+    border: transparent;
+}
+
+.postEmoji{
+    position: absolute;
+    object-fit: cover;
+    height: 1rem;
+    cursor: pointer;
+}
