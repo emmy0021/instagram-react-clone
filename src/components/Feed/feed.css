@@ -2,7 +2,6 @@
     width: 45vw;
     height: 100vh;
     margin: 3rem 5vw 3rem 5vw;
-    margin: 3rem 5vw 3rem 21vw;
 }
 
 
@@ -141,4 +140,23 @@
     object-fit: cover;
     height: 1rem;
     cursor: pointer;
+}
+
+@media screen and (max-width:1150px) {
+    .feed{
+        width: 95vw;
+    }    
+
+    .post{width: 35rem;}
+    .lastPostAction{
+        right: -25rem;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .feed{
+
+         min-width: 36rem;
+    }
 }

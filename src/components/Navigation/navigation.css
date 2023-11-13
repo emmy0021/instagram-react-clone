@@ -1,6 +1,6 @@
 .navBar {
     width: 14rem;
-    height: 100vh;
+    height: 100%;
     padding: 12px;
     border-right: 1px solid lightgray;
     position: fixed; /* Make the navbar fixed */
@@ -36,4 +36,80 @@
 .foot{
     position: absolute;
     bottom: 1rem;
+}
+
+.mobileNavBar{
+    visibility: hidden;
+}
+
+@media screen and (max-width:1250px) {
+    .tab{
+        color: transparent;
+        
+    }
+
+    .navBar {
+        width: 3rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navBar{
+        visibility: hidden;
+    }
+
+    .mobileNavBar{
+        visibility: visible;
+
+    }
+
+    .mobileNavBarFooter{
+        background: white;
+        width: 80%;
+        height: 96px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+
+    .mobileNavBarHeader{
+        background: white;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 96px;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        margin: 4rem 1.5rem 4rem 1.5rem;
+    }
+
+    .search{
+        background: #efefef;
+        border-radius: 12px;
+        border: none;
+        width: 22rem;
+        font-size: larger;
+        height: 3.5rem;
+        padding: 0px 20px;
+    }
+
+    .mobileNotifications{
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .mobileActions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
