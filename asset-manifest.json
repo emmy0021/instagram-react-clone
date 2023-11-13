@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/instagram-react-clone/static/css/main.9da2a6a5.css",
-    "main.js": "/instagram-react-clone/static/js/main.4156b066.js",
+    "main.css": "/instagram-react-clone/static/css/main.71747282.css",
+    "main.js": "/instagram-react-clone/static/js/main.d091e608.js",
     "static/js/787.3fc29379.chunk.js": "/instagram-react-clone/static/js/787.3fc29379.chunk.js",
     "static/media/Times-Square-New-York.jpg": "/instagram-react-clone/static/media/Times-Square-New-York.27bcc50c3903d0280527.jpg",
     "index.html": "/instagram-react-clone/index.html",
-    "main.9da2a6a5.css.map": "/instagram-react-clone/static/css/main.9da2a6a5.css.map",
-    "main.4156b066.js.map": "/instagram-react-clone/static/js/main.4156b066.js.map",
+    "main.71747282.css.map": "/instagram-react-clone/static/css/main.71747282.css.map",
+    "main.d091e608.js.map": "/instagram-react-clone/static/js/main.d091e608.js.map",
     "787.3fc29379.chunk.js.map": "/instagram-react-clone/static/js/787.3fc29379.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9da2a6a5.css",
-    "static/js/main.4156b066.js"
+    "static/css/main.71747282.css",
+    "static/js/main.d091e608.js"
   ]
 }
